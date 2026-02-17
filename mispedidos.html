@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mispedidos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&family=Montserrat:wght@300;400;500;600;700&display=swap" 
+      rel="stylesheet">
+    <link rel="icon" href="imagenes/inicio/iconos/favicon.png" type="image/png">
+    <link rel="stylesheet" href="boststrap/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="body-pedidos">
+    <header class="contenedor-header">
+        <nav class="navbar navbar-expand-md bg-white shadow-sm py-3 flex-wrap flex-lg-nowrap fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="navbar-brand d-flex align-items-center mx-md-auto mx-lg-0" href="index.html">
+                    <img src="imagenes/inicio/iconos/logo.png" alt="FlashMarket logo" height="38" class="me-2">
+                </a>
+                <!-- BOTÓN HAMBURGUESA (solo móvil) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-label="Abrir menú">☰</button>
+                <!-- MENU -->
+                <div class="collapse navbar-collapse w-100 w-lg-auto mt-3 mt-md-0" id="menuPrincipal">
+                    <!-- Contenedor que cambia el orden según la pantalla -->
+                    <ul
+                        class="navbar-nav w-100 flex-column flex-md-row text-center mt-3 mt-md-0 justify-content-md-center ms-md-0 ms-lg-auto gap-3">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="productos.html">Nuestros productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mispedidos.html">Mis pedidos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Sobre nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contáctanos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo-pedidos">MIS PEDIDOS</h1>
+        <div class="contenedor-iconos">
+            <div>
+                <img src="imagenes/pedidos/icono-ubicacion.svg" alt="icono de ubicacion">
+                <a href="#" class="link-ubicacion">¿Dónde quieres recibir tu pedido?</a>
+            </div>
+            <img src="imagenes/pedidos/icono-carrito.svg" alt="icono de carrito de compras color celeste">
+        </div>
+        <div class="tarjeta-carro">
+            <img src="imagenes/pedidos/icono-carrito-vacio.svg" alt="carrito de compras con bolsas de colores">
+            <div class="texto-carro">
+                <p class="linea">Tu Carro está vacío</p>
+                <p class="linea2">Agrega tus productos al carrito para verlos aqui</p>
+            </div>
+        </div>
+        <a href="productos.html" class="btn-ver">Ver productos</a>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <section class="seccion-footer-1">
+                <h2 class="subtitulo-footer">¡Síguenos en nuestras redes sociales!</h2>
+                <div class="iconos-redes">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                        <img src="imagenes/inicio/iconos/icono-facebook.svg" alt="Icono de facebook">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                        <img src="imagenes/inicio/iconos/icono-instagram.svg" alt="Icono de instagram">
+                    </a>
+                    <a href="https://www.tiktok.com/" target="_blank" rel="noopener">
+                        <img src="imagenes/inicio/iconos/icono-tiktok.svg" alt="Icono de Tik Tok">
+                    </a>
+                    <a href="https://x.com/" target="_blank" rel="noopener">
+                        <img src="imagenes/inicio/iconos/icono-x.svg" alt="Icono de twitter o X">
+                    </a>
+                </div>
+            </section>
+            <section class="seccion-footer-2">
+                <a href="#">
+                    <h2 class="subtitulo-footer">Preguntas frecuentes</h2>
+                </a>
+                <ul>
+                    <li>¿Cuál es su política de devolución o reembolso?</li>
+                    <li>¿Cómo me contacto con servicio al cliente?</li>
+                    <li>¿Ofrecen recogida en tienda?</li>
+                </ul>
+            </section>
+            <section class="seccion-footer-3">
+                <a href="#">
+                    <h2 class="subtitulo-footer">Libro de reclamaciones</h2>
+                    <img src="imagenes/inicio/iconos/icono-libro.svg" alt="libro abierto color gris">
+                </a>
+            </section>
+        </div>
+        <hr>
+        <div class="seccion-footer-4">
+            <p>© 2025. Todos los derechos reservados</p>
+            <p>
+                <a href="#">Términos y condiciones.</a>
+                <a href="#">Política de privacidad.</a>
+            </p>
+        </div>
+    </footer>
+    <script src="boststrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
